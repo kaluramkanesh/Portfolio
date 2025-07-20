@@ -1,6 +1,7 @@
 import { Typewriter } from "react-simple-typewriter";
 import Tilt from "react-parallax-tilt";
-// import profileImage from "../../assets/profile"
+import KaluramImage from '../../assets/photo/Kaluram_images.jpeg';
+
 function About() {
   return (
     <section
@@ -37,7 +38,7 @@ function About() {
           </h3>
           {/* About me paragraph */}
           <p className="text-gray-400">
-            Hi, I'm Kaluram, a passionate Full Stack Developer with 2 years of
+            Hi, I'm Kaluram, a passionate Full Stack Developer with 2.5+ years of
             hands-on experience building scalable and user-friendly web
             applications. I specialize in working with the MERN stack (MongoDB,
             Express, React, Node.js) and have a strong foundation in both
@@ -73,7 +74,7 @@ function About() {
             gyroscope={true}
           >
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf6pQOX0qoaCzo2mqTwT_-Z2oZt4D70LZ1Ww&s"
+              src={KaluramImage}
               alt="Kaluram"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />

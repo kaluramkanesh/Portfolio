@@ -46,11 +46,11 @@ function Education() {
               {/* Flex container for image and text */}
               <div className="flex items-center space-x-6">
                 {/* School Logo/Image */}
-                <div className="w-35 h-20 bg-white rounded-full overflow-hidden">
+                <div className="w-32 h-25 bg-white rounded-full overflow-hidden">
                   <img
                     src={education.img}
                     alt={education.school}
-                    className="w-full h-full overflow-hidden object-cover"
+                    className="w-full h-full overflow-hidden object-contain"
                   />
                 </div>
 
