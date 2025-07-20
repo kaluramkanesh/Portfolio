@@ -10,8 +10,8 @@ function Education() {
         <h2 className="text-4xl font-bold text-white">EDUCATION</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
-        My education has been a journey of learning and development. Here are
-        the details of my academic background
+          My education has been a journey of learning and development. Here are
+          the details of my academic background
         </p>
       </div>
 
@@ -46,11 +46,11 @@ function Education() {
               {/* Flex container for image and text */}
               <div className="flex items-center space-x-6">
                 {/* School Logo/Image */}
-                <div className="w-25 h-25 bg-white rounded-full overflow-hidden">
+                <div className="w-24 h-15 rounded-full overflow-hidden bg-white">
                   <img
                     src={education.img}
                     alt={education.school}
-                    className="w-full h-full overflow-hidden object-contain"
+                    className="w-full h-full object-cover"
                   />
                 </div>
 
