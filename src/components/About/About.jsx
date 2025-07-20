@@ -1,6 +1,6 @@
 import { Typewriter } from "react-simple-typewriter";
 import Tilt from "react-parallax-tilt";
-import KaluramImage from '../../assets/photo/Kaluram_images.jpeg';
+import KaluramImage from "../../assets/photo/Kaluram_images.jpeg";
 
 function About() {
   return (
@@ -22,11 +22,13 @@ function About() {
             <span className="text-white">I am a </span>
             <Typewriter
               words={[
+                "Full Stack Developer",
+                "Software Development Engineer",
                 "Node.js Developer",
-                "Fullstack Developer",
+                "Backend Developer",
+                "Backend Engineer",
                 "App Developer",
-                "UI/UX Designer",
-                "Coder",
+                "SDE-1",
               ]}
               loop={5}
               cursor
@@ -38,8 +40,8 @@ function About() {
           </h3>
           {/* About me paragraph */}
           <p className="text-gray-400">
-            Hi, I'm Kaluram, a passionate Full Stack Developer with 2.5+ years of
-            hands-on experience building scalable and user-friendly web
+            Hi, I'm Kaluram, a passionate Full Stack Developer with 2.5+ years
+            of hands-on experience building scalable and user-friendly web
             applications. I specialize in working with the MERN stack (MongoDB,
             Express, React, Node.js) and have a strong foundation in both
             frontend and backend development. I enjoy solving real-world
